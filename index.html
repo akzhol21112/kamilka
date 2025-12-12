@@ -1,58 +1,62 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="theme_dark">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Камилка 🕊️</title>
+<meta charset="UTF-8">
+<title>Камилка 🕊️</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Стили -->
-    <link rel="stylesheet" href="bootstrap.min.css">
-    <link rel="stylesheet" href="telegram.css">
-    <link rel="stylesheet" href="font-roboto.css">
+<link rel="stylesheet" href="kamila_files/bootstrap.min.css">
+<link rel="stylesheet" href="kamila_files/telegram.css">
+<link rel="stylesheet" href="kamila_files/font-roboto.css">
+
+<link rel="icon" type="image/svg+xml" href="kamila_files/website_icon.svg">
+<link rel="apple-touch-icon" sizes="180x180" href="kamila_files/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="kamila_files/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="kamila_files/favicon-16x16.png">
+
+<script>
+if(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches){
+    document.documentElement.classList.add('theme_dark');
+}
+</script>
 </head>
+
 <body>
+<div class="tgme_background_wrap">
+    <canvas id="tgme_background" class="tgme_background default" width="50" height="50" data-colors="dbddbb,6ba587,d5d88d,88b884"></canvas>
+    <div class="tgme_background_pattern default"></div>
+</div>
 
 <div class="tgme_page_wrap">
-
-    <!-- Шапка -->
     <div class="tgme_head_wrap">
         <div class="tgme_head">
             <a href="https://telegram.org/" class="tgme_head_brand">
-                <img src="logo.png" alt="Logo" height="50">
+                <img src="kamila_files/logo.svg" alt="Telegram Logo" height="34">
             </a>
-            <a class="tgme_head_right_btn" href="tg://join?invite=sr6vldxAWiQ2ZDMy">
-                Join Channel
-            </a>
+            <a class="tgme_head_right_btn" href="tg://join?invite=sr6vldxAWiQ2ZDMy">Join Channel</a>
         </div>
     </div>
 
-    <!-- Основной контент -->
     <div class="tgme_body_wrap">
         <div class="tgme_page">
             <div class="tgme_page_photo">
                 <a href="tg://join?invite=sr6vldxAWiQ2ZDMy">
-                    <img src="Zrr9pVI86Mo5pi0SmjhjVRRVV4VF-Il4S62_okrQ1Njnl7v5h15B7BEfYnaiH7ikzv-xZWOj08OPmdsA4fkSx1rmh22cxKpTFRd6JRYbg1pZsYTHUfIh3tGfTBBtXOnromQ6I_ynhyo4FSD2V7txMuxxoB2V5-IoVXwPPPl541mDFg39xXLS6LkDO5Le_wb07WVRGRhBAthtnTfeW0CnLIxKvxbIMcpkxFGF-pCEnusqqlp0L0i7Je31G5t3Gau790hS6hVx61sQYQtWHlv_JZMkRfr1wHRicKJoeWzLkf5CLZBUu9-m9riW29x8jyNxeQdniwDy2npHRkB6-ExgNg.jpg" alt="Фото" width="300">
+                    <img class="tgme_page_photo_image" src="kamila_files/Zrr9pVI86Mo5pi0SmjhjVRRVV4VF-Il4S62_okrQ1Njnl7v5h15B7BEfYnaiH7ikzv-xZWOj08OPmdsA4fkSx1rmh22cxKpTFRd6JRYbg1pZsYTHUfIh3tGfTBBtXOnromQ6I_ynhyo4FSD2V7txMuxxoB2V5-IoVXwPPPl541mDFg39xXLS6LkDO5Le_wb07WVRGRhBAthtnTfeW0CnLIxKvxbIMcpkxFGF-pCEnusqqlp0L0i7Je31G5t3Gau790hS6hVx61sQYQtWHlv_JZMkRfr1wHRicKJoeWzLkf5CLZBUu9-m9riW29x8jyNxeQdniwDy2npHRkB6-ExgNg.jpg" alt="Камилка">
                 </a>
             </div>
-
             <div class="tgme_page_title">Камилка 🕊️</div>
             <div class="tgme_page_extra">1 813 subscribers</div>
-            <div class="tgme_page_description">
-                Единственный канал. На фейки не ведемся ‼️<br>
-                Моя основа - <a href="https://t.me/kamila_almaty">@kamila_almaty</a>
-            </div>
-
+            <div class="tgme_page_description">Единственный канал. На фейки не ведемся ‼️<br>Моя основа - <a href="https://t.me/kamila_almaty">@kamila_almaty</a></div>
             <div class="tgme_page_action">
                 <a class="tgme_action_button_new shine" href="tg://join?invite=sr6vldxAWiQ2ZDMy">Join Channel</a>
             </div>
+            <div class="tgme_page_additional">
+                You are invited to the channel <strong>Камилка 🕊️</strong>. Click above to join.
+            </div>
         </div>
     </div>
-
 </div>
-
-<!-- JS -->
-<script src="main.js"></script>
-
 </body>
 </html>
+
 
